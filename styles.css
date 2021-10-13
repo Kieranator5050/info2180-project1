@@ -11,6 +11,20 @@ body {
 }
 
 /*Header => Nav Bar"*/
+header > div {
+  padding-top: 3%;
+}
+h1, nav, nav > ul, nav > ul > li {
+  display: inline;
+}
+nav > ul {
+  left: 30%;
+  position: relative;
+}
+nav > ul > li{
+  list-style-type: none;
+  padding: 1%;
+}
 
 /*Main*/
   /*Overview Hero => Section*/
