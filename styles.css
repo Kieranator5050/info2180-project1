@@ -1,7 +1,12 @@
 /* Add your CSS to this file */
 body {
-    font-size: 16px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+    font-size: 18px;
     margin: 0;
+}
+
+a {
+  text-decoration: none;
 }
 
 .container {
@@ -13,23 +18,34 @@ body {
 /*Defaulting images to preset*/
 img {
   height: 50%;
-  width: 50%;
+  width: 70%;
 }
 
 /*Header => Nav Bar"*/
+header {
+  background-color: white;
+}
 header > div {
   padding-top: 3%;
 }
 h1, nav, nav > ul, nav > ul > li {
   display: inline;
+  font-size: 18px;
 }
 nav > ul {
   left: 30%;
   position: relative;
 }
 nav > ul > li{
+  font-size: 18px;
   list-style-type: none;
   padding: 1%;
+}
+nav > ul > li > a {
+  color: #6b7280;
+}
+nav > ul > li > a:hover{
+  color: #5A67DB;
 }
 
 /*Main*/
