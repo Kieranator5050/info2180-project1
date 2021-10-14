@@ -1,0 +1,215 @@
+/* Add your CSS to this file */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+    font-size: 18px;
+    margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 960px;
+    width: 100%;
+}
+
+/*Defaulting images to preset*/
+/*Only really used in the cards*/
+img {
+  height: 120%;
+  width: 60%;
+}
+
+/*Header => Nav Bar"*/
+header {
+  background-color: white;
+  padding-bottom: 2%;
+}
+header > div {
+  padding-top: 3%;
+}
+h1, nav, nav > ul, nav > ul > li {
+  display: inline;
+  font-size: 18px;
+}
+nav > ul {
+  left: 30%;
+  position: relative;
+}
+nav > ul > li{
+  font-size: 18px;
+  list-style-type: none;
+  padding: 1%;
+}
+nav > ul > li > a {
+  color: #6b7280;
+}
+nav > ul > li > a:hover{
+  color: #5A67DB;
+}
+
+/*Main*/
+
+  /*Overview Hero => Section*/
+  .overview-hero{
+
+  }
+  .overview-hero > .container {
+    background-color: #E2E8F0;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    padding: 5% 5% 5% 5%;
+  }
+  .overview-hero-image > img {
+    height: 80%;
+    width: 80%;
+  }
+  .overview-hero-text > p {
+    padding-bottom: 5%;
+  }
+
+  /*Learn About => Section*/
+  .learn-about {
+    clear: both;
+    padding-top: 2%;
+    padding-bottom: 4%;
+  }
+  .learn-about > .container > h2 {
+    color: #48BB78;
+    font-size: 24px;
+  }
+  .cards {
+    display: grid;
+    grid-gap: 3%;
+    grid-template-columns: 30% 30% 30%;
+  }
+  .card {
+    border-color: #E2E8F0;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px 5px #E2E8F0;
+    display: grid;
+    grid-template-rows: 30% 70%;
+    grid-gap: 8%;
+  }
+  .card > img{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding: 5% 5% 5% 5%;
+  }
+  .card-body {
+    padding: 5% 5% 5% 5%;
+  }
+  .card-body > h3{
+    color: #48BB78;
+    font-size: 21px;
+  }
+
+  /*Testing => Section*/
+  .testing {
+    color: white;
+  }
+  .testing > .container{
+    background-color: #4A5568;
+    padding: 5% 5% 5% 5%;
+  }
+  .testing > div {
+    display: grid;
+    grid-template-columns: 70% 30%;
+  }
+  .cta {
+    background-color: #48BB78;
+    border-radius: 5px;
+    margin: auto;
+    padding: 5% 10% 5% 10%;
+  }
+  .cta > a {
+    color: white;
+  }
+  .cta:hover {
+    background-color: #56CC1A;
+  }
+
+  /*Stories => Section*/
+  .stories {
+    padding-bottom: 5%;
+    padding-top: 2%;
+  }
+  article {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    padding-top: 1%;
+  }
+  article > img {
+    border-radius: 50%;
+    height: 75%;
+    margin: auto;
+    width: 75%;
+  }
+  .article-body > p > a{
+    color: #5A67D8;
+  }
+  .article-body > h2 {
+    font-size: 18px;
+  }
+
+  /*newsletter => Section*/
+  .newsletter {
+    align-items: center;
+    text-align: center;
+  }
+  .newsletter > .container{
+    background-color: #48BB78;
+    color: white;
+    padding: 5% 5% 5% 5%;
+    width: 100%;
+  }
+  .newsletter > .container > h3 {
+    align-items: center;
+    margin: 0 auto;
+    width: 50%;
+  }
+  .newsletter > .container > p {
+    align-items: center;
+    margin: 2% auto;
+    width: 50%;
+  }
+  form {
+    display: grid;
+    grid-template-columns: 70% 30%;
+    grid-gap: 1%;
+    margin: 2% auto;
+    width: 50%;
+  }
+  form > div > input {
+    border: none;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin: 8px 10px;
+    padding: 12px 0;
+    width: 100%
+  }
+  form > button {
+    background-color: #5A67D8;
+    border: none;
+    border-radius: 5px;
+    box-sizing: border-box;
+    color: white;
+    margin: 8px 10px;
+    padding: 12px 0;
+    width: 100%;
+  }
+  form > button:hover {
+    cursor: pointer;
+  }
+
+/*Footer*/
+footer > .container{
+  background-color: #4A5568;
+  color: white;
+  padding: 1% 5% 1% 5%;
+  margin-bottom: 5%;
+}
