@@ -54,12 +54,13 @@ nav > ul > li > a:hover{
 
   /*Overview Hero => Section*/
   .overview-hero{
-    background-color: #E2E8F0;
-    padding-top: 2%;
+
   }
   .overview-hero > .container {
+    background-color: #E2E8F0;
     display: grid;
     grid-template-columns: 30% 70%;
+    padding: 5% 5% 5% 5%;
   }
   .overview-hero-image > img {
     height: 80%;
@@ -109,10 +110,11 @@ nav > ul > li > a:hover{
 
   /*Testing => Section*/
   .testing {
-    background-color: #4A5568;
     color: white;
-    padding-bottom: 6%;
-    padding-top: 4%;
+  }
+  .testing > .container{
+    background-color: #4A5568;
+    padding: 5% 5% 5% 5%;
   }
   .testing > div {
     display: grid;
@@ -132,6 +134,10 @@ nav > ul > li > a:hover{
   }
 
   /*Stories => Section*/
+  .stories {
+    padding-bottom: 5%;
+    padding-top: 2%;
+  }
   article {
     display: grid;
     grid-template-columns: 30% 70%;
@@ -151,15 +157,32 @@ nav > ul > li > a:hover{
   }
 
   /*newsletter => Section*/
-  .newsletter > .container{
+  .newsletter {
+    align-items: center;
     text-align: center;
   }
-  form {
-    display: grid;
-    grid-template-columns: 50% 50%;
+  .newsletter > .container{
+    background-color: #48BB78;
+    color: white;
+    padding: 5% 15% 5% 15%;
+    width: 50%;
   }
-  input {
-    width: 90%;
+  form {
+    display: flex;
+  }
+  form > div > input {
+    box-sizing: border-box;
+    margin: 8px 0;
+    padding: 12px 200px;
+    width: 70%;
+  }
+  form > button {
+    background-color: #5A67D8;
+    color: white;
+    box-sizing: border-box;
+    margin: 8px 0;
+    padding: 12px 60px;
+    width: 30%;
   }
 
 /*Footer*/
