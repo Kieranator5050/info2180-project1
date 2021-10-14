@@ -55,9 +55,22 @@ nav > ul > li{
   .cards {
     display: grid;
     grid-gap: 5%;
-    grid-template-columns: 33% 33% 33%;
+    grid-template-columns: 30% 30% 30%;
   }
+
   /*Testing => Section*/
+  .testing {
+    padding-top: 2%;
+  }
+  .testing > div {
+    display: grid;
+    grid-template-columns: 70% 30%;
+  }
+  .testing-desciption {
+  }
+  .cta {
+    margin: auto;
+  }
   /*Stories => Section*/
   /*newsletter => Section*/
 
