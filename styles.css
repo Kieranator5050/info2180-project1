@@ -202,6 +202,9 @@ nav > ul > li > a:hover{
     padding: 12px 0;
     width: 100%;
   }
+  form > button:hover {
+    cursor: pointer;
+  }
 
 /*Footer*/
 footer > .container{
