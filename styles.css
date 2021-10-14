@@ -164,25 +164,49 @@ nav > ul > li > a:hover{
   .newsletter > .container{
     background-color: #48BB78;
     color: white;
-    padding: 5% 15% 5% 15%;
+    padding: 5% 5% 5% 5%;
+    width: 100%;
+  }
+  .newsletter > .container > h3 {
+    align-items: center;
+    margin: 0 auto;
+    width: 50%;
+  }
+  .newsletter > .container > p {
+    align-items: center;
+    margin: 2% auto;
     width: 50%;
   }
   form {
-    display: flex;
+    display: grid;
+    grid-template-columns: 70% 30%;
+    grid-gap: 1%;
+    margin: 2% auto;
+    width: 50%;
   }
   form > div > input {
+    border: none;
+    border-radius: 5px;
     box-sizing: border-box;
-    margin: 8px 0;
-    padding: 12px 200px;
-    width: 70%;
+    margin: 8px 10px;
+    padding: 12px 0;
+    width: 100%
   }
   form > button {
     background-color: #5A67D8;
-    color: white;
+    border: none;
+    border-radius: 5px;
     box-sizing: border-box;
-    margin: 8px 0;
-    padding: 12px 60px;
-    width: 30%;
+    color: white;
+    margin: 8px 10px;
+    padding: 12px 0;
+    width: 100%;
   }
 
 /*Footer*/
+footer > .container{
+  background-color: #4A5568;
+  color: white;
+  padding: 1% 5% 1% 5%;
+  margin-bottom: 5%;
+}
