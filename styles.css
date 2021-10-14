@@ -1,7 +1,7 @@
 /* Add your CSS to this file */
 body {
-    margin: 0;
     font-size: 16px;
+    margin: 0;
 }
 
 .container {
@@ -72,6 +72,21 @@ nav > ul > li{
     margin: auto;
   }
   /*Stories => Section*/
+  .article-body {
+  }
+
+  article {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    padding-top: 1%;
+  }
+
+  article > img {
+    border-radius: 50%;
+    height: 75%;
+    margin: auto;
+    width: 75%;
+  }
   /*newsletter => Section*/
 
 /*Footer*/
