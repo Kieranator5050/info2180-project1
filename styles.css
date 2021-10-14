@@ -143,6 +143,12 @@ nav > ul > li > a:hover{
     margin: auto;
     width: 75%;
   }
+  .article-body > p > a{
+    color: #5A67D8;
+  }
+  .article-body > h2 {
+    font-size: 18px;
+  }
 
   /*newsletter => Section*/
   .newsletter > .container{
