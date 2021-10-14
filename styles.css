@@ -110,15 +110,25 @@ nav > ul > li > a:hover{
   /*Testing => Section*/
   .testing {
     background-color: #4A5568;
-    padding-top: 2%;
-    padding-bottom: 4%;
+    color: white;
+    padding-bottom: 6%;
+    padding-top: 4%;
   }
   .testing > div {
     display: grid;
     grid-template-columns: 70% 30%;
   }
   .cta {
+    background-color: #48BB78;
+    border-radius: 5px;
     margin: auto;
+    padding: 5% 10% 5% 10%;
+  }
+  .cta > a {
+    color: white;
+  }
+  .cta:hover {
+    background-color: #56CC1A;
   }
 
   /*Stories => Section*/
