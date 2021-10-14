@@ -24,6 +24,7 @@ img {
 /*Header => Nav Bar"*/
 header {
   background-color: white;
+  padding-bottom: 2%;
 }
 header > div {
   padding-top: 3%;
@@ -52,15 +53,19 @@ nav > ul > li > a:hover{
 
   /*Overview Hero => Section*/
   .overview-hero{
+    background-color: #E2E8F0;
     padding-top: 2%;
   }
-  .overview-hero-image > img {
-    float: left;
-    height: 15%;
-    width: 15%;
+  .overview-hero > .container {
+    display: grid;
+    grid-template-columns: 30% 70%;
   }
-  .overview-hero-text > h2, .overview-hero-text >p {
-    padding-left: 25%;
+  .overview-hero-image > img {
+    height: 80%;
+    width: 80%;
+  }
+  .overview-hero-text >p {
+    padding-bottom: 5%;
   }
 
   /*Learn About => Section*/
