@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', () => {
   //Editing HTML
   document.getElementsByTagName("footer")[0].getElementsByTagName("div")[0].getElementsByTagName("p")[0].innerHTML = `<p>Copyright 2020, Kieran Jaggernauth</p><p>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></p>`;
   document.getElementsByClassName("cta")[0].getElementsByTagName("a")[0].innerHTML = "LEARN MORE";
-
+  document.getElementById("email").setAttribute("required", "");
   //Attaching function to button
   let subButton =  document.getElementsByClassName("btn")[1];
   //Returning false prevents button from refreshing the webpage. If true the request is sent
