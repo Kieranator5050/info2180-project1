@@ -179,8 +179,8 @@ nav > ul > li > a:hover{
   }
   form {
     display: grid;
-    grid-template-columns: 70% 30%;
     grid-gap: 1%;
+    grid-template-columns: 70% 30%;
     margin: 2% auto;
     width: 50%;
   }
@@ -210,6 +210,6 @@ nav > ul > li > a:hover{
 footer > .container{
   background-color: #4A5568;
   color: white;
-  padding: 1% 5% 1% 5%;
   margin-bottom: 5%;
+  padding: 1% 5% 1% 5%;
 }
