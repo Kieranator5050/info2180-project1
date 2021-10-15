@@ -1,7 +1,9 @@
 /* Add your JavaScript to this file */
 
 //Expression to check [char*]@[1<char*<24].[char=3]
-let regex = /[a-z A-Z 0-9 !@#$%^&*()_+\-=\[\]{};':"\\|,.<>\/?]+[@]{1}[a-z A-Z 0-9 - .]{1,24}[.]+[a-z A-Z]{3,3}/i;
+//let regex = /[a-z A-Z 0-9 !@#$%^&*()_+\-=\[\]{};':"\\|,.<>\/?]+[@]{1}[a-z A-Z 0-9 - .]{1,24}[.]+[a-z A-Z]{3,3}/i;
+//Expression for RFC2822 Email Validation
+let regex = /[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?/g
 
 //Function to run email check on input field
 function verifyEmail(){
